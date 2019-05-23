@@ -19,3 +19,24 @@ So, the same v8 engine was put at the core and its functionalities were extended
 =================
 
 Google's v8 engine is open source. Can be looked at and can even be changed for ur own purposes.
+
+v8 javascript engine is written in C++ and is used in google chrome.
+
+v8 implements the ecmascript standard.
+
+So v8 can run on different machines and hence support different machine codes. ia-32, arm64, x64, x87 etc etc...
+So, if u go in the src folder for v8, you will see different folders by these names and that means they have implemented the ecmascript
+specifcation for each of these macines.
+
+This is the engine that will read the text of javascript and convert it into machine code.
+Most of the files are .cc and .h c++ files.
+
+v8 is huge and it has been worked on for years. Its fast adn its highly performant.
+
+ ****** ALSO v8 can run standalone or can be embedded into any C++ application !!!!
+There is an entire Embedder's guide for embdding v8 into a C++ program ====> And this path leads us to NODE JS.
+
+==============
+
+Adding features to javascript  ===== Modifying v8...
+
