@@ -18,3 +18,4 @@ So, the same v8 engine was put at the core and its functionalities were extended
 
 =================
 
+Google's v8 engine is open source. Can be looked at and can even be changed for ur own purposes.
