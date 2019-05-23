@@ -1,1 +1,20 @@
-Hello.
+Hello People,
+
+So what is the idea behind Node JS.
+It is simple.
+
+We already had the v8 Javascript engine that was used by the browsers.
+So, the same v8 engine was put at the core and its functionalities were extended by c++ wrapper code. Giving it the power of running on operating systems as a backend.
+
+=========== So, what does javascript needs to become a web server:-
+
+1. Better ways to reorganize our code into reusable pieces.
+
+2. Ways to deal with files, databases and communicate over the internet.
+
+3. THe ability to accept requests and send responses
+
+4. A way to deal with work that takes a long time.
+
+=================
+
