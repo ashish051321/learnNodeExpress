@@ -4,6 +4,7 @@ var util = require('util');
 function Greetr() {
     this.greeting = 'Hello People';
 }
+debugger;
 
 util.inherits(Greetr, Emitter);// Putting Emitter as parent in the prototype chain of Greetr
 
